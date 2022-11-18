@@ -9,7 +9,9 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="dashboard-title">SalesDash</div>
+            <div class="dashboard-title-container">
+                <h1 class="dashboard-title">SalesDash</h1>
+            </div>
             <div class="sb-dashboard menu"></div>
             <div class="sb-balance menu"></div>
             <div class="sb-transaction menu"></div>
@@ -26,9 +28,21 @@
             <p class="date">Today's date: Sun, 10 April 2022</p>
         </div>
         <div class="content">
-            <div class="profit summary"></div>
-            <div class="sales summary"></div>
-            <div class="transactions summary"></div>
+            <div class="summary">
+                <div class="summary-title">Profit</div>
+                <div class="summary-total">Rp 11.500.000</div>
+                <div class="summary-status">0.35% compared to 7 days ago</div>
+            </div>
+            <div class="summary">
+                <div class="summary-title">Sales</div>
+                <div class="summary-total">Rp 56.000.000</div>
+                <div class="summary-status">0.5% compared to 7 days ago</div>
+            </div>
+            <div class="summary">
+                <div class="summary-title">Profit</div>
+                <div class="summary-total">1.090 transactions</div>
+                <div class="summary-status">same as 7 days ago</div>
+            </div>
             <div class="sales-chart"></div>
             <div class="top-agents">
                 <div class="agent"></div>
